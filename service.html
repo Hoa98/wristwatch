@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWatch</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responvive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-thay d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="shopcart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-head">
+                            <div class="row">
+                                <div class="col map">
+                                    <div class="address-map">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="">Cửa hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col hot">
+                                    <div class="hotline">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="">hotline<span>18006005</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col sign">
+                                    <div class="sign-in">
+                                        <i class="fas fa-user"></i>
+                                        <a href="#login-box" class="login-window">Đăng nhập<span>Đăng ký</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col shop">
+                                    <div class="shopcart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <a href="">Giỏ hàng(0)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login" id="login-box">Đăng nhập
+                    <a class="close" href="#"><i class="fas fa-times-circle img-close"></i></i></a>
+                    <form class="login-content" action="#" method="post"><label class="username">
+                            <span>Tên hoặc email</span>
+                            <input id="username" type="text" autocomplete="on" name="username" placeholder="Username"
+                                value="" />
+                        </label>
+                        <label class="password">
+                            <span>Mật khẩu</span>
+                            <input id="password" type="password" name="password" placeholder="Password" value="" />
+                        </label>
+                        <button class="button submit-button btn-outline-warning d-block" type="submit">Đăng
+                            nhập</button>
+
+                        <a class="forgot" href="#">Quên mật khẩu?</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">trang chủ</a></li>
+                            <li class="nav-item"><a href="introduce.html" class="nav-link">về chúng tôi</a></li>
+                            <li class="nav-item"><a href="dongho.html" class="nav-link">đồng hồ</a></li>
+                            <li class="nav-item"><a href="phukien.html" class="nav-link">phụ kiện đồng hồ</a></li>
+                            <li class="nav-item"><a href="service.html" class="nav-link  active">dịch vụ</a></li>
+                            <li class="nav-item"><a href="news.html" class="nav-link">tin tức</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">trang chủ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="service.html">Dịch vụ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="title_main_page">
+                <h1 class="display-5">Dịch vụ</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12 mb-3">
+                            <a href="" class="position-relative d-block mb-3"><img src="images/dv1.jpg" class="img-fluid" alt="Responsive image">
+                                <div class="title-dv position-absolute">
+                                    Sửa chữa thay thế nút vặn chỉnh giờ của đồng hồ
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 col-12 mb-3">
+                            <div class="service-colum mb-3">
+                                <a href="" class="position-relative d-block"><img src="images/dv2.jpg" class="img-fluid" alt="Responsive image">
+                                    <div class="title-dv position-absolute">
+                                        Đi tìm câu trả lời về đồng hồ cơ nào chạy chính xác nhất
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-colum mb-3">
+                                <a href="" class="position-relative d-block"><img src="images/dv3.jpg" class="img-fluid" alt="Responsive image">
+                                    <div class="title-dv position-absolute">
+                                        Ở đâu thay dây cao su đồng hồ Hoblot tại Hà Nội
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-12 mb-3">
+                            <div class="item-blog-fuil mb-3"><iframe width="100%" height="315" src="https://www.youtube.com/embed/pvR9zjqle1E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv4.jpg" class="img-fluid" alt="Responsive image" title="Cảnh báo vấn nạn pin Đồng hồ giả dạng đang hoành hành"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Cảnh báo vấn nạn pin Đồng hồ giả dạng đang hoành hành</a>
+                                                <p>Thời gian qua liên tục chúng tôi nhận được các phản hồi của khách hàng về việc đồng hồ sau khi thay pin sử dụng một thời gian ngắn là đã hết. Điển hình là phải kể đến câu chuyện của chị Lan – Thanh Xuân,
+                                                    Hà Nội khi cách đây 4 tháng chị có mang chiếc đồng hồ Burberry ra một tiệm gần nhà. Sau một thời gian dùng chị thấy đồng hồ ngưng hoạt động và mang đi kiểm tra tại Alowatch.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv5.jpg" class="img-fluid" alt="Responsive image" title="Lau dầu bảo dưỡng căn chỉnh đồng hồ Rolex chính hãng"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Lau dầu bảo dưỡng căn chỉnh đồng hồ Rolex chính hãng</a>
+                                                <p>Rolex là một trong những thương hiệu cao cấp có độ phủ rộng khắp thế giới. Đồng hồ Rolex không chỉ là hình mẫu trong thiết kế bên ngoài mà còn nằm ở trong cỗ máy nữa. Tất cả cỗ máy Rolex đều là các cỗ máy
+                                                    inhouse do hãng thiết kế và phát triển. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv6.png" class="img-fluid" alt="Responsive image" title="Đánh bóng đồng hồ Bulova thế nào là hiệu quả?"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Đánh bóng đồng hồ Bulova thế nào là hiệu quả?</a>
+                                                <p>Bạn muốn đánh bóng đồng hồ Bulova yêu thích của mình trở nên thật sáng bóng như mới nhưng lại không biết làm cách nào? Hãy để bài viết này giúp đỡ bạn điều đó.Từ lâu, đánh bóng đồng hồ Bulova đã là một trong
+                                                    những việc làm quen thuộc đối với những ai</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv7.jpg" class="img-fluid" alt="Responsive image" title="Đánh bóng đồng hồ Montblanc có khó không?"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Đánh bóng đồng hồ Montblanc có khó không?</a>
+                                                <p>Đánh bóng đồng hồ Montblanc liệu có khó không và đánh bóng chúng như thế nào? Tất cả sẽ có ngay trong bài viết dưới đây.Đồng hồ đeo tay vừa được coi là thứ phụ kiện thời trang cao cấp, vừa khẳng định phong
+                                                    cách của chủ nhân. Chúng thường được đeo suốt cả một ngày dài
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv9.jpg" class="img-fluid" alt="Responsive image" title="Đánh bóng làm sạch làm mới đồng hồ Hamilton có đắt không? "></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Đánh bóng làm sạch làm mới đồng hồ Hamilton có đắt không?</a>
+                                                <p>Bạn đang rất bận rộn với công việc và không có thời gian đem chiếc đồng hồ Hamilton mà mình yêu thích đi đánh bóng? Hãy để Alowatch giới thiệu dịch vụ làm mới đồng hồ đánh bóng đồng hồ Hamilton làm điều
+                                                    đó thay bạn. Đánh bóng đồng hồ Hamilton có lẽ là một trong </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                            <div class="item-blog-fuil mb-3">
+                                <div class="blog-fuil-body">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <div class="blog-fuil-img">
+                                                <a href=""><img src="images/dv8.png" class="img-fluid" alt="Responsive image" title="Dạy nghề sửa đồng hồ"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="blog-fuil-content">
+                                                <a href="">Dạy nghề sửa đồng hồ</a>
+                                                <p>Như bạn có thể biết, nhu cầu sử dụng đồng hồ hiện nay ngày một tăng cao. Đến một thời điểm nào đấy nhu cầu sửa chữa đồng hồ cũng ngày một nhiều. Những người thợ sửa đồng hồ giỏi cũng ngày một hiếm hoi ít
+                                                    đi. Chính vì vậy, bạn đang tìm cho mình một cánh cửa một cơ hội để phát huy khả năng.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End item-blog-fuil -->
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 col-12">
+                    <div class="list-group mb-3">
+                        <div class="list-group-item">
+                            <h4><a href="">Tin tức nổi bật</a></h4>
+                        </div>
+                        <div class="news-left-body">
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn1.jpg" class="img-fluid" alt="Responsive image" title="Top 3 mẫu đồng hồ cơ cho nữ được yêu thích nhất tại Cwatch"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Top 3 mẫu đồng hồ cơ cho nữ được yêu thích nhất tại Cwatch</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn2.jpg" class="img-fluid" alt="Responsive image" title="Bộ sưu tập đồng hồ nữ mới nhất 2020 với thiết kế mang phong cách hoàng gia"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Bộ sưu tập đồng hồ mới nhất mang phong cách hoàng gia</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn3.jpg" class="img-fluid" alt="Responsive image" title="Đồng hồ Demi là gì tại sao lại hot đến vậy?"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Đồng hồ Demi là gì tại sao lại hot đến vậy?</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                        </div>
+                    </div>
+                    <div class="list-group mb-3 mt-3">
+                        <div class="list-group-item">
+                            <h4><a href="">Kiến thức chuyên ngành</a></h4>
+                        </div>
+                        <div class="block-news-body">
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn7.jpg" class="img-fluid" alt="Responsive image" title="Đồng hồ Citizen Sapphire có gì hấp dẫn người dùng"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Đồng hồ Citizen Sapphire có gì hấp dẫn người dùng</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn8.jpg" class="img-fluid" alt="Responsive image" title="Case là gì? Case đồng hồ là gì? Và những điều bạn chư biết"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Case là gì? Case đồng hồ là gì? Và những điều bạn chư biết</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn3.jpg" class="img-fluid" alt="Responsive image" title="Bạn biết gì về đồng hồ đeo tay quartz?"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Bạn biết gì về đồng hồ đeo tay quartz?</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn4.jpg" class="img-fluid" alt="Responsive image" title="Định nghĩa đầy đủ về Swiss Made"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Định nghĩa đầy đủ về Swiss Made</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn5.jpg" class="img-fluid" alt="Responsive image" title="6 chức năng làm nên đẳng cấp của đồng hồ cao cấp"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">6 chức năng làm nên đẳng cấp của đồng hồ cao cấp</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                            <div class="list-group-item list-group-item-action">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href=""><img src="images/cn6.jpg" class="img-fluid" alt="Responsive image" title="Cắt nghĩa khái niệm Chronometer là gì"></a>
+                                    </div>
+                                    <div class="col-8">
+                                        <p><a href="">Cắt nghĩa khái niệm Chronometer là gì</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End list-group-item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <footer class="mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">VỀ CHÚNG TÔI</a></p>
+                        </div>
+                        <div class="item-content">
+                            <p>CWatch tự hào là đại lý phân phối các mẫu đồng hồ Orient, Seiko, Citizen, Bulova với giá thành tốt nhất tại Việt Nam</p>
+                            <p><a href="">Giới thiệu về Cwatch</a></p>
+                            <p><a href="">Triết lý kinh doanh</a></p>
+                            <p><a href="">Khách hàng nói gì về chúng tôi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">DANH MỤC</a></p>
+                        </div>
+                        <div class="item-content">
+                            <ul class="category">
+                                <li><a href="dongho.html">ĐỒNG HỒ</a></li>
+                                <li><a href="phukien.html">PHỤ KIỆN ĐỒNG HỒ</a></li>
+                                <li><a href="service.html">DỊCH VỤ</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">CHÍNH SÁCH</p></a>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li><a href="">Hướng dẫn mua hàng</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi trả và hoàn tiền</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">ĐĂNG KÝ NHẬN TIN</p></a>
+                        </div>
+                        <div class="item-content">
+                            <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây</p>
+                            <div>
+                                <form action="" class="form-inline">
+                                    <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="text-copyright">
+                            <p>©2020 All right reserved-Bản quyền thuộc về hoact98</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

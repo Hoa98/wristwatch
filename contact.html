@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWatch</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responvive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-thay d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="shopcart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-head">
+                            <div class="row">
+                                <div class="col map">
+                                    <div class="address-map">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="">Cửa hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col hot">
+                                    <div class="hotline">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="">hotline<span>18006005</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col sign">
+                                    <div class="sign-in">
+                                        <i class="fas fa-user"></i>
+                                        <a href="#login-box" class="login-window">Đăng nhập<span>Đăng ký</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col shop">
+                                    <div class="shopcart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <a href="">Giỏ hàng(0)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login" id="login-box">Đăng nhập
+                    <a class="close" href="#"><i class="fas fa-times-circle img-close"></i></i></a>
+                    <form class="login-content" action="#" method="post"><label class="username">
+                    <span>Tên hoặc email</span>
+                    <input id="username" type="text" autocomplete="on" name="username" placeholder="Username" value="" />
+                    </label>
+                        <label class="password">
+                    <span>Mật khẩu</span>
+                    <input id="password" type="password" name="password" placeholder="Password" value="" />
+                    </label>
+                        <button class="button submit-button btn-outline-warning d-block" type="submit">Đăng nhập</button>
+
+                        <a class="forgot" href="#">Quên mật khẩu?</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">trang chủ</a></li>
+                            <li class="nav-item"><a href="introduce.html" class="nav-link">về chúng tôi</a></li>
+                            <li class="nav-item"><a href="dongho.html" class="nav-link">đồng hồ</a></li>
+                            <li class="nav-item"><a href="phukien.html" class="nav-link">phụ kiện đồng hồ</a></li>
+                            <li class="nav-item"><a href="service.html" class="nav-link">dịch vụ</a></li>
+                            <li class="nav-item"><a href="news.html" class="nav-link">tin tức</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link  active">liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">trang chủ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.0425603843737!2d105.69312894125085!3d21.07096228914542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3134538d2b1a07bb%3A0x55e50dcba55891e6!2zQ8O0bmcgdHkgQ-G7lSBQaOG6qW4gQ8O0bmcgTmdo4buHIEhNVEQgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1583228834066!5m2!1svi!2s"
+                            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3">
+                    <div class="contact-inner">
+                        <p><strong>CÔNG TY CỔ PHẦN TRỰC TUYẾN CWATCH</strong></p>
+                        <p>Địa chỉ: Thôn Cự Quán, Đức Thượng, Hoài Đức, Hà Nội - Việt Nam</p>
+                        <p>VPĐD: Số 627 Đức Thượng, Hoài Đức, Hà Nội - Việt Nam</p>
+                        <p>Mã số thuế: 0108764339</p>
+                        <p>Điện thoại: 0962.97.97.00</p>
+                        <p>Email: web@betasoft.vn</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 col-12 mb-3">
+                    <div class="text-center mb-3">
+                        <h3>BẠN CẦN TRỢ GIÚP?</h3>
+                    </div>
+                    <div class="role-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Tên của bạn <span>*</span></label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nhập tên của bạn..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Địa chỉ email <span>*</span></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Tiêu đề</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput2" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Lời nhắn</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-warning">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="mt-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">VỀ CHÚNG TÔI</a></p>
+                        </div>
+                        <div class="item-content">
+                            <p>CWatch tự hào là đại lý phân phối các mẫu đồng hồ Orient, Seiko, Citizen, Bulova với giá thành tốt nhất tại Việt Nam</p>
+                            <p><a href="">Giới thiệu về Cwatch</a></p>
+                            <p><a href="">Triết lý kinh doanh</a></p>
+                            <p><a href="">Khách hàng nói gì về chúng tôi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">DANH MỤC</a></p>
+                        </div>
+                        <div class="item-content">
+                            <ul class="category">
+                                <li><a href="dongho.html">ĐỒNG HỒ</a></li>
+                                <li><a href="phukien.html">PHỤ KIỆN ĐỒNG HỒ</a></li>
+                                <li><a href="service.html">DỊCH VỤ</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">CHÍNH SÁCH</p></a>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li><a href="">Hướng dẫn mua hàng</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi trả và hoàn tiền</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">ĐĂNG KÝ NHẬN TIN</p></a>
+                        </div>
+                        <div class="item-content">
+                            <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây</p>
+                            <div>
+                                <form action="" class="form-inline">
+                                    <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="text-copyright">
+                            <p>©2020 All right reserved-Bản quyền thuộc về hoact98</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

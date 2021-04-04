@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWatch</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responvive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-thay d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="shopcart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-head">
+                            <div class="row">
+                                <div class="col map">
+                                    <div class="address-map">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="">Cửa hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col hot">
+                                    <div class="hotline">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="">hotline<span>18006005</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col sign">
+                                    <div class="sign-in">
+                                        <i class="fas fa-user"></i>
+                                        <a href="#login-box" class="login-window">Đăng nhập<span>Đăng ký</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col shop">
+                                    <div class="shopcart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <a href="">Giỏ hàng(0)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login" id="login-box">Đăng nhập
+                    <a class="close" href="#"><i class="fas fa-times-circle img-close"></i></i></a>
+                    <form class="login-content" action="#" method="post"><label class="username">
+                    <span>Tên hoặc email</span>
+                    <input id="username" type="text" autocomplete="on" name="username" placeholder="Username" value="" />
+                    </label>
+                        <label class="password">
+                    <span>Mật khẩu</span>
+                    <input id="password" type="password" name="password" placeholder="Password" value="" />
+                    </label>
+                        <button class="button submit-button btn-outline-warning d-block" type="submit">Đăng nhập</button>
+
+                        <a class="forgot" href="#">Quên mật khẩu?</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">trang chủ</a></li>
+                            <li class="nav-item"><a href="introduce.html" class="nav-link">về chúng tôi</a></li>
+                            <li class="nav-item"><a href="dongho.html" class="nav-link active">đồng hồ</a></li>
+                            <li class="nav-item"><a href="phukien.html" class="nav-link">phụ kiện đồng hồ</a></li>
+                            <li class="nav-item"><a href="service.html" class="nav-link">dịch vụ</a></li>
+                            <li class="nav-item"><a href="news.html" class="nav-link">tin tức</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">trang chủ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="dongho.html">đồng hồ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2">
+                    <div class="sort">
+                        <select name="" id="">
+                            <option value="">Sắp xếp theo</option>
+                            <option value="">Mặc định</option>
+                            <option value="">Mới nhất</option>
+                            <option value="">Phổ biến</option>
+                            <option value="">Đánh giá cao nhất</option>
+                            <option value="">Giá từ thấp đến cao</option>
+                            <option value="">Giá từ cao đến thấp</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="block-product-filter">
+                        <div class="block-product">
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>DANH MỤC SẢN PHẨM</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhnam">Đồng hồ nam
+                                                    <input type="checkbox" name="" id="dhnam"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+
+                                                <label class="filter" for="dhnu">Đồng hồ nữ
+                                                    <input type="checkbox" name="" id="dhnu"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhdoi">Đồng hồ đôi
+                                                    <input type="checkbox" name="" id="dhdoi"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="pkdh">Phụ kiện đồng hồ
+                                                    <input type="checkbox" name="" id="pkdh"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>THƯƠNG HIỆU</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhPA">Đồng hồ Philippe Auguste
+                                                    <input type="checkbox" name=""
+                                                        id="dhPA"><span class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhES">Đồng hồ Epos Swiss
+                                                    <input type="checkbox" name=""
+                                                        id="dhES"><span class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhAt">Đồng hồ Atlantic<input type="checkbox" name=""
+                                                        id="dhAt"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhDD">Đồng hồ Diamond D<input type="checkbox" name=""
+                                                        id="dhDD"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhAG">Đồng hồ Aries Gold<input type="checkbox" name=""
+                                                        id="dhAG"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhCa">Đồng hồ Casio<input type="checkbox" name=""
+                                                        id="dhCa"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhCi">Đồng hồ Citizen<input type="checkbox" name=""
+                                                        id="dhCi"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhO">Đồng hồ Original Swiss<input type="checkbox" name=""
+                                                        id="dhO"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhQQ">Đồng hồ QQ<input type="checkbox" name=""
+                                                        id="dhQQ"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhST">Stuhriling Tourbillon<input type="checkbox" name=""
+                                                        id="dhST"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>KHOẢNG GIÁ</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-duoi2tr">Giá dưới 2 triệu<input type="checkbox"
+                                                        name="" id="filter-duoi2tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-2-5tr">Giá từ 2 - 5 triệu<input type="checkbox" name=""
+                                                        id="filter-2-5tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-5-10tr">Giá từ 5 - 10 triệu<input type="checkbox" name=""
+                                                        id="filter-5-10tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-10-20tr">Giá từ 10 - 20 triệu<input type="checkbox"
+                                                        name="" id="filter-10-20tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-tren20tr">Giá trên 20 triệu<input type="checkbox"
+                                                        name="" id="filter-tren20tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>NĂNG LƯỢNG</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhco">Đồng hồ cơ<input type="checkbox" name=""
+                                                        id="dhco"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dhdtu">Đồng hồ điện tử<input type="checkbox" name=""
+                                                        id="dhdtu"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>LOẠI DÂY</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="day-da">Dây da<input type="checkbox" name=""
+                                                        id="day-da"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="thep">Thép không gỉ<input type="checkbox" name=""
+                                                        id="thep"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="ma-vang">Mạ vàng<input type="checkbox"
+                                                        name="ma-vang" id=""><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="ma-dong">Mạ đồng<input type="checkbox" name=""
+                                                        id="ma-dong"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="cao-su">Cao su<input type="checkbox" name=""
+                                                        id="cao-su"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="day-nhua">Dây nhựa<input type="checkbox" name=""
+                                                        id="day-nhua"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="day-vai">Dây vải, dù<input type="checkbox" name=""
+                                                        id="day-vai"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="hop-kim">Hợp kim thép<input type="checkbox" name=""
+                                                        id="hop-kim"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>LOẠI VỎ</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="thep-k-gi">Thép không gỉ<input type="checkbox" name=""
+                                                        id="thep-k-gi"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="mVang">Mạ vàng<input type="checkbox" name=""
+                                                        id="mVang"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="vang">Vàng nguyên khối<input type="checkbox" name=""
+                                                        id="vang"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="mDong">Mạ đồng<input type="checkbox" name=""
+                                                        id="mDong"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="cSu">Cao su<input type="checkbox" name=""
+                                                        id="cSu"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="vNhua">Vỏ nhựa<input type="checkbox" name=""
+                                                        id="vNhua"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="hopKim">Hợp kim thép<input type="checkbox" name=""
+                                                        id="hopKim"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="box-cat">
+                                <div class="box-cat-item">
+                                    <button onclick="anDanhSach()" type="button" class="btn btn-light"><i
+                                            class="fas fa-th"></i></button>
+                                </div>
+                                <div class="box-cat-item">
+                                    <button onclick="hienThi()" type="button" class="btn btn-light"><i
+                                            class="fas fa-th-list"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="gallery-view" id="gallery-th">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                        <div class="discout"><span class="onsale">-26%</span></div>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Đồng hồ OM178WL</p>
+                                        </a>
+                                        <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-26%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                        </div>
+                    </section>
+                    <section class="list-view" id="list-th" style="display: none;">
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item-view">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="product-images text-center mb-3">
+                                        <a href="chitiet.html"><img src="images/hp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="product-content">
+                                        <div class="product-rating-item">
+                                            <span class="rating-box">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                        <p class="name-product"><a href="chitiet.html">Đồng hồ OM178WL</a></p>
+                                        <p>Một thiết kế mang đậm bản sắc văn hóa Phương Đông với hình tượng LƯỠNG LONG - biểu tượng của sức mạnh vũ trụ, sự huyền biến âm dương, khí chất của người quân tử và quyền năng của bậc quý nhân. Mang lại sự thịnh
+                                            vượng và may mắn, điều chỉ có thể tìm thấy ở những nơi trang trọng bậc nhất như cung vua. </p>
+                                        <p>Bao quanh lưỡng long là hệ thống vành băm cùng lớp kính Sapphire chống xước tốt giúp bảo vệ mặt đồng hồ một cách tối đa. Khác với vành băm kiểu thể thao khỏe khoắn, góc cạnh mà ta thường thấy thì vành băm của chiếc
+                                            Ogival này mềm mại hơn với các đường cong ngắn bo quanh mặt đồng hồ. Kết hợp với đường chỉ dài chạy dọc phần dây đeo cùng kiểu với vành, tạo cho người nhìn cảm giác giống như vảy rồng vậy. Trông thanh lịch,
+                                            kiểu cách và sang trọng hơn nhiều. </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <script>
+                        function hienThi() {
+                            var list = document.getElementById("list-th");
+                            list.style.display = "block";
+                            var gallery = document.getElementById("gallery-th");
+                            gallery.style.display = "none";
+                        }
+
+                        function anDanhSach() {
+                            var list = document.getElementById("list-th");
+                            list.style.display = "none";
+                            var gallery = document.getElementById("gallery-th");
+                            gallery.style.display = "block";
+                        }
+                    </script>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="list-pager">
+                                <ul>
+                                    <li><a href="" class="active">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">VỀ CHÚNG TÔI</a></p>
+                        </div>
+                        <div class="item-content">
+                            <p>CWatch tự hào là đại lý phân phối các mẫu đồng hồ Orient, Seiko, Citizen, Bulova với giá thành tốt nhất tại Việt Nam</p>
+                            <p><a href="">Giới thiệu về Cwatch</a></p>
+                            <p><a href="">Triết lý kinh doanh</a></p>
+                            <p><a href="">Khách hàng nói gì về chúng tôi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">DANH MỤC</a></p>
+                        </div>
+                        <div class="item-content">
+                            <ul class="category">
+                                <li><a href="dongho.html">ĐỒNG HỒ</a></li>
+                                <li><a href="phukien.html">PHỤ KIỆN ĐỒNG HỒ</a></li>
+                                <li><a href="service.html">DỊCH VỤ</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">CHÍNH SÁCH</p></a>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li><a href="">Hướng dẫn mua hàng</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi trả và hoàn tiền</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-xl-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">ĐĂNG KÝ NHẬN TIN</p></a>
+                        </div>
+                        <div class="item-content">
+                            <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây</p>
+                            <div>
+                                <form action="" class="form-inline">
+                                    <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-10">
+                        <div class="text-copyright">
+                            <p>©2020 All right reserved-Bản quyền thuộc về hoact98</p>
+                        </div>
+                    </div>
+                    <div class="col-xl-2">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

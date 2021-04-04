@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWatch</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responvive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-thay d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="shopcart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-head">
+                            <div class="row">
+                                <div class="col map">
+                                    <div class="address-map">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="">Cửa hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col hot">
+                                    <div class="hotline">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="">hotline<span>18006005</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col sign">
+                                    <div class="sign-in">
+                                        <i class="fas fa-user"></i>
+                                        <a href="#login-box" class="login-window">Đăng nhập<span>Đăng ký</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col shop">
+                                    <div class="shopcart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <a href="">Giỏ hàng(0)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login" id="login-box">Đăng nhập
+                    <a class="close" href="#"><i class="fas fa-times-circle img-close"></i></i></a>
+                    <form class="login-content" action="#" method="post"><label class="username">
+                    <span>Tên hoặc email</span>
+                    <input id="username" type="text" autocomplete="on" name="username" placeholder="Username" value="" />
+                    </label>
+                        <label class="password">
+                    <span>Mật khẩu</span>
+                    <input id="password" type="password" name="password" placeholder="Password" value="" />
+                    </label>
+                        <button class="button submit-button btn-outline-warning d-block" type="submit">Đăng nhập</button>
+
+                        <a class="forgot" href="#">Quên mật khẩu?</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">trang chủ</a></li>
+                            <li class="nav-item"><a href="introduce.html" class="nav-link">về chúng tôi</a></li>
+                            <li class="nav-item"><a href="dongho.html" class="nav-link">đồng hồ</a></li>
+                            <li class="nav-item"><a href="phukien.html" class="nav-link active">phụ kiện đồng hồ</a></li>
+                            <li class="nav-item"><a href="service.html" class="nav-link">dịch vụ</a></li>
+                            <li class="nav-item"><a href="news.html" class="nav-link">tin tức</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-10">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">trang chủ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="phukien.html">phụ kiện đồng hồ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="sort">
+                        <select name="" id="">
+                            <option value="">Sắp xếp theo</option>
+                            <option value="">Mặc định</option>
+                            <option value="">Mới nhất</option>
+                            <option value="">Phổ biến</option>
+                            <option value="">Đánh giá cao nhất</option>
+                            <option value="">Giá từ thấp đến cao</option>
+                            <option value="">Giá từ cao đến thấp</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="summary-accessories">
+                        <div class="summary-accessories-img mb-3">
+                            <img src="images/pk1.jpg" class="img-fluid" alt="Responsive image">
+                        </div>
+                        <div class="summary-accessories-content">
+                            <p>PHỤ KIỆN ĐỒNG HỒ CHÍNH HÃNG: Dây da, hộp xoay, hộp da đựng đồng hồ ĐẸP - BỀN - CHẤT.</p>
+                            <p><i class="fas fa-check"></i> Dây đeo đồng hồ đa dạng chất liệu: Dây da bò, dây da cá sấu, dây đà điểu với đường bo viền chắc chắn, đường may đều mang lại vẻ đẹp thẩm mĩ và sức bền cho dây đeo.</p>
+                            <p><i class="fas fa-check"></i> Hộp da đựng đồng hồ cầm tay 2 ngăn với 2 màu sang trọng: Đen và Nâu - Tiện lợi khi mang theo du lịch.</p>
+                            <p><i class="fas fa-check"></i> Hộp xoay đồng hồ với chất liệu vỏ là gỗ sơn mài bóng cùng nội thất bọc da PU màu sữa sang trọng, mềm mại tạo nên vẻ đẹp trang nhã và thanh lịch.</p>
+                            <p>Hãy tân trang và chăm sóc cỗ máy thời gian của mình bằng những phụ kiện đồng hồ chính hãng, bền đẹp nhé!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mb-3">
+                    <div class="block-product-filter">
+                        <div class="block-product">
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>PHỤ KIỆN ĐỒNG HỒ</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="day-dh">Dây đồng hồ
+                                                    <input type="checkbox" name="" id="day-dh"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+
+                                                <label class="filter" for="khoa-dh">Khóa đồng hồ
+                                                    <input type="checkbox" name="" id="khoa-dh"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="hop-dh">Hộp đựng đồng hồ
+                                                    <input type="checkbox" name="" id="hop-dh"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="dungCu">Dụng cụ vệ sinh
+                                                    <input type="checkbox" name="" id="dungCu"><span
+                                                        class="checkmark"></span>
+                                            </label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>KHOẢNG GIÁ</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-duoi500">Giá dưới 500 nghìn<input type="checkbox"
+                                                        name="" id="filter-duoi500"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-500-1tr">Giá từ 500 nghìn - 1 triệu<input type="checkbox" name=""
+                                                        id="filter-500-1tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-1-2tr">Giá từ 1 - 2 triệu<input type="checkbox" name=""
+                                                        id="filter-1-2tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="filter-tren2tr">Giá trên 2 triệu<input type="checkbox"
+                                                        name="" id="filter-tren2tr"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                            <div class="block-product-item">
+                                <div class="block-title">
+                                    <h2><span>KÍCH THƯỚC</span></h2>
+                                </div>
+                                <div class="block-content">
+                                    <ul>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m12">12mm<input type="checkbox" name=""
+                                                        id="m12"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m14">14mm<input type="checkbox" name=""
+                                                        id="m14"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m16">16mm<input type="checkbox" name=""
+                                                        id="m16"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m18">18mm<input type="checkbox" name=""
+                                                        id="m18"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m20">20mm<input type="checkbox" name=""
+                                                        id="m20"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m22">22mm<input type="checkbox" name=""
+                                                        id="m22"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>
+                                                <label class="filter" for="m24">24mm<input type="checkbox" name=""
+                                                        id="m24"><span class="checkmark"></span></label>
+                                            </span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- end item -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+                    <section class="gallery-view">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12  mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk4.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk4.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk5.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk5.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk6.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk6.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                            <div class="col-lg-4 col-md-6 col-sm-12 mb-5">
+                                <div class="hot-product-item">
+                                    <div class="hot-product-img">
+                                        <a href="chitiet.html"><img src="images/pk6.jpg" class="img-fluid" alt="Responsive image"></a>
+                                    </div>
+                                    <div class="hot-product-content">
+                                        <a href="chitiet.html">
+                                            <p class="cat-name">Dây da cá sấu PK-DD-CSLB-V1-S16D <span>Phụ kiện đồng hồ Cwatch</span></p>
+                                        </a>
+                                        <p><del>600.000₫</del><span>450.000₫</span></p>
+                                        <div class="rating-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <a href="chitiet.html"><span>(12)</span></a></div>
+                                    </div>
+                                    <div class="discout"><span class="onsale">-25%</span></div>
+                                </div>
+                            </div>
+                            <!-- end product-item -->
+                        </div>
+                    </section>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="list-pager">
+                                <ul>
+                                    <li><a href="" class="active">1</a></li>
+                                    <li><a href="">2</a></li>
+                                    <li><a href="">3</a></li>
+                                    <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">VỀ CHÚNG TÔI</a></p>
+                        </div>
+                        <div class="item-content">
+                            <p>CWatch tự hào là đại lý phân phối các mẫu đồng hồ Orient, Seiko, Citizen, Bulova với giá thành tốt nhất tại Việt Nam</p>
+                            <p><a href="">Giới thiệu về Cwatch</a></p>
+                            <p><a href="">Triết lý kinh doanh</a></p>
+                            <p><a href="">Khách hàng nói gì về chúng tôi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">DANH MỤC</a></p>
+                        </div>
+                        <div class="item-content">
+                            <ul class="category">
+                                <li><a href="dongho.html">ĐỒNG HỒ</a></li>
+                                <li><a href="phukien.html">PHỤ KIỆN ĐỒNG HỒ</a></li>
+                                <li><a href="service.html">DỊCH VỤ</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">CHÍNH SÁCH</p></a>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li><a href="">Hướng dẫn mua hàng</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi trả và hoàn tiền</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">ĐĂNG KÝ NHẬN TIN</p></a>
+                        </div>
+                        <div class="item-content">
+                            <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây</p>
+                            <div>
+                                <form action="" class="form-inline">
+                                    <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="text-copyright">
+                            <p>©2020 All right reserved-Bản quyền thuộc về hoact98</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

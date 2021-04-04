@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src='https://cdn.rawgit.com/Pagawa/PgwSlideshow/master/pgwslideshow.min.js'></script>
+	<link rel='stylesheet' href='https://cdn.rawgit.com/Pagawa/PgwSlideshow/master/pgwslideshow.min.css'>
+	<style type="text/css">
+		.slides {
+			width: 700px;
+			margin: 0 auto;
+		}
+
+		.slides ul {
+			list-style: inside none disc;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<div class="slides">
+		<ul class="pgwSlideshow">
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/dakar.jpg"
+				alt="San Francisco, USA" data-description="Golden Gate Bridge">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/new-delhi.jpg"
+				alt="Rio de Janeiro, Brazil">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/london_mini.jpg"
+				alt=""
+				data-large-src="http://static.pgwjs.com/img/pg/slideshow/london.jpg">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/new-york.jpg" alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/new-delhi.jpg"
+				alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/paris.jpg" alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/sydney.jpg" alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/tokyo.jpg" alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/honk-kong.jpg"
+				alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/dakar.jpg" alt="">
+			</li>
+			<li><img src="http://static.pgwjs.com/img/pg/slideshow/toronto.jpg" alt="">
+			</li>
+			<li>
+				<a href="http://en.wikipedia.org/wiki/Monaco" target="_blank"><img
+					src="http://static.pgwjs.com/img/pg/slideshow/monaco.jpg"
+					alt="Monaco">
+				</a>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.pgwSlideshow').pgwSlideshow({
+				autoSlide: true
+			});
+		});
+	</script>
+</body>
+</html>

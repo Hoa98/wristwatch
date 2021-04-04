@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CWatch</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+    <script src="https://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.1.3.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responvive.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-thay d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="shopcart">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="index.html"><img src="images/logo.png" alt="CWatch" width="125" height="60"></a>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="search">
+                            <form action="" class="form-inline">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Tìm kiếm" aria-label="Search">
+                                <button type="submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="right-head">
+                            <div class="row">
+                                <div class="col map">
+                                    <div class="address-map">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        <a href="">Cửa hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col hot">
+                                    <div class="hotline">
+                                        <i class="fas fa-phone-alt"></i>
+                                        <a href="">hotline<span>18006005</span></a>
+
+                                    </div>
+                                </div>
+                                <div class="col sign">
+                                    <div class="sign-in">
+                                        <i class="fas fa-user"></i>
+                                        <a href="#login-box" class="login-window">Đăng nhập<span>Đăng ký</span></a>
+                                    </div>
+                                </div>
+                                <div class="col shop">
+                                    <div class="shopcart">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <a href="">Giỏ hàng(0)</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="login" id="login-box">Đăng nhập
+                    <a class="close" href="#"><i class="fas fa-times-circle img-close"></i></i></a>
+                    <form class="login-content" action="#" method="post"><label class="username">
+                    <span>Tên hoặc email</span>
+                    <input id="username" type="text" autocomplete="on" name="username" placeholder="Username" value="" />
+                    </label>
+                        <label class="password">
+                    <span>Mật khẩu</span>
+                    <input id="password" type="password" name="password" placeholder="Password" value="" />
+                    </label>
+                        <button class="button submit-button btn-outline-warning d-block" type="submit">Đăng nhập</button>
+
+                        <a class="forgot" href="#">Quên mật khẩu?</a></form>
+                </div>
+            </div>
+        </div>
+        <div class="header-main">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarResponsive">
+                        <ul class="navbar-nav nav">
+                            <li class="nav-item"><a href="index.html" class="nav-link">trang chủ</a></li>
+                            <li class="nav-item"><a href="introduce.html" class="nav-link">về chúng tôi</a></li>
+                            <li class="nav-item"><a href="dongho.html" class="nav-link active">đồng hồ</a></li>
+                            <li class="nav-item"><a href="phukien.html" class="nav-link">phụ kiện đồng hồ</a></li>
+                            <li class="nav-item"><a href="service.html" class="nav-link">dịch vụ</a></li>
+                            <li class="nav-item"><a href="news.html" class="nav-link">tin tức</a></li>
+                            <li class="nav-item"><a href="contact.html" class="nav-link">liên hệ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="breadcrumbs">
+                        <ul>
+                            <li><a href="index.html">trang chủ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="dongho.html">đồng hồ</a><span><i class="fas fa-angle-right"></i></span></li>
+                            <li><a href="chitiet.html">Chi tiết</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <div class="flickity-viewport">
+                        <div class="row">
+                            <div class="col-md-12 mb-3">
+                                <div class="flickity-img">
+                                    <img src="images/chitiet1.jpg" class="img-fluid" alt="Responsive image" id="chitiet1">
+                                    <img src="images/chitiet31.jpg" class="img-fluid" alt="Responsive image" style="display: none;" id="chitiet31">
+                                    <img src="images/chitiet41.jpg" class="img-fluid" alt="Responsive image" style="display: none;" id="chitiet41">
+                                    <img src="images/chitiet51.jpg" class="img-fluid" alt="Responsive image" style="display: none;" id="chitiet51">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flickity-slider">
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <div id="flickkitySlider" class="carousel slide" data-ride="carousel">
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="images/chitiet2.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet2()">
+                                                <img src="images/chitiet3.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet3()">
+                                                <img src="images/chitiet4.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet4()">
+                                                <img src="images/chitiet5.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet5()">
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="images/chitiet5.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet5()">
+                                                <img src="images/chitiet4.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet4()">
+                                                <img src="images/chitiet3.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet3()">
+                                                <img src="images/chitiet2.jpg" class="img-fluid" alt="Responsive image" onclick="chitiet2()">
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#flickkitySlider" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#flickkitySlider" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="share mt-3 mb-3">
+                        <div>Chia sẻ:</div>
+                        <button><i class="fab fa-facebook-messenger"></i></button>
+                        <button><i class="fab fa-facebook"></i></button>
+                        <button><i class="fab fa-google-plus"></i></button>
+                        <button><i class="fab fa-pinterest"></i></button>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="detail-pro">
+                        <div class="product-name">
+                            <h4>ĐỒNG HỒ OGIVAL OG358.88AGR-GL</h4>
+                        </div>
+                        <div class="code-manu">
+                            <div class="rating-star d-inline-block">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <a href="chitiet.html"><span class="see-reviews">(12)</span></a></div>
+                            <p>Thương hiệu: <a href="">Đồng hồ Ogival</a></p>
+                        </div>
+                        <div class="price">
+                            <p class="price-old"><del>34.100.000₫</del></p>
+                            <p class="price-current">30.690.000₫
+                                <div class="discount">
+                                    <span>10%</span>
+                                </div>
+                            </p>
+                        </div>
+                        <div class="status-quantity">
+                            <i class="fas fa-check"></i>
+                            <span>Trạng thái còn hàng</span>
+                        </div>
+                        <div class="promotion">
+                            <div class="title-gift">
+                                Khuyến mãi
+                            </div>
+                            <p><i class="fas fa-check"></i>Giảm ngay 10% (đã trừ vào giá)</p>
+                            <p><i class="fas fa-check"></i>Tặng gói Bảo hiểm Diamond trị giá 7.000.000đ.</p>
+                            <a href="">Xem chi tiết</a>
+                        </div>
+                        <div class="quantum">
+                            <label for="soluong">Số lượng: </label>
+                            <input type="number" min="0" step="1" pattern="\d" id="soluong"><span><i class="fas fa-heart"></i> Đã
+                                thích 13</span>
+                        </div>
+                        <div class="buy-now">
+                            <form action="">
+                                <button type="button" class="btn btn-warning btn-lg btn-block"><i
+                                        class="fas fa-cart-plus"></i>THÊM VÀO GIỎ HÀNG</button>
+                                <button type="button" class="btn btn-danger btn-lg btn-block">MUA NGAY</button>
+                                <button type="button" class="btn btn-primary btn-lg btn-block">MUA TRẢ GÓP 0%</button>
+                            </form>
+                        </div>
+                        <div class="order-fast">
+                            <form action="" onsubmit="return check()">
+                                <div class="text-redis-phone"><i class="fas fa-rocket"></i> Tư vấn miễn phí
+                                </div>
+                                <div class="wapper-infor">
+                                    <input type="text" placeholder="Để lại số điện thoại..." required id="sdt">
+                                    <button type="submit" class="btn btn-outline-light">GỬI</button>
+                                </div>
+                            </form>
+                        </div>
+                        <script>
+                            function check() {
+                                var sdt = document.getElementById("sdt").value;
+                                var checkSo = /((09|03|07|08|05)+([0-9]{8,9}))/;
+                                if (sdt == "") {
+                                    alert("Bạn chưa nhập số điện thoại");
+                                } else if (checkSo.test(sdt) == false) {
+                                    alert("Số điện thoại không hợp lệ");
+                                } else {
+                                    alert("Cảm ơn bạn đã liên hệ. Chúng tôi sẽ gọi lại cho bạn.");
+                                    return true;
+                                }
+                                return false;
+                            }
+                        </script>
+
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="info-detail">
+                        <div class="title-detail-char">
+                            THÔNG TIN SẢN PHẨM
+                        </div>
+                        <div class="table-compare">
+                            <table>
+                                <tr>
+                                    <td>Nhãn hiệu:</td>
+                                    <td>Ogival</td>
+                                </tr>
+                                <tr>
+                                    <td>Nguồn gốc:</td>
+                                    <td>Thụy Sỹ</td>
+                                </tr>
+                                <tr>
+                                    <td>Kiểu máy</td>
+                                    <td>Automatic</td>
+                                </tr>
+                                <tr>
+                                    <td>Kích cỡ:</td>
+                                    <td>40mm</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu vỏ:</td>
+                                    <td>Thép không gỉ/Mạ PVD</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu dây:</td>
+                                    <td>Dây da</td>
+                                </tr>
+                                <tr>
+                                    <td>Chất liệu kính:</td>
+                                    <td>Kính Sapphire</td>
+                                </tr>
+                                <tr>
+                                    <td>Độ chịu nước:</td>
+                                    <td>30M</td>
+                                </tr>
+                                <tr>
+                                    <td>Bảo hiểm:</td>
+                                    <td>5 năm tiêu chuẩn Thụy Sỹ</td>
+                                </tr>
+                                <tr>
+                                    <td>Bảo hành: </td>
+                                    <td>2 năm</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="nav nav-tabs">
+                        <a class="nav-link" id="describe-tab" data-toggle="tab" href="#describe">MÔ TẢ CHI TIẾT</a>
+                        <a class="nav-link" id="guarantee-tab" data-toggle="tab" href="#guarantee">CHẾ ĐỘ BẢO HÀNH</a>
+                        <a class="nav-link" id="tutorial-tab" data-toggle="tab" href="#tutorial">HƯỚNG DẪN SỬ DỤNG</a>
+                        <a class="nav-link" id="evaluate-tab" data-toggle="tab" href="#evaluate">ĐÁNH GIÁ</a>
+                    </nav>
+                    <div class="tab-content">
+                        <div class="tab-pane fade show active" id="describe">
+                            <div class="describe-tab text-center mb-3">
+                                <h5>TRÊN TAY OGIVAL BÁT MÃ TRUY PHONG: LINH VẬT PHONG THỦY, ĐẠI CÁT ĐẠI LỢI!</h5>
+                                <img src="images/mota.jpg" class="img-fluid" alt="Responsive image">
+                            </div>
+                            <div class="describe-full" id="describle-show" style="display: none;">
+                                <p>Tôi có ông bạn doanh nhân sinh năm Ngọ. Mới đây, hắn tậu một chiếc đồng hồ nam Ogival mạ vàng, cọc số kim cương, mặt Skeleton chạm hành 8 con Lộc Mã.Lộc Mã người ta chơi 2, 3, ông bạn tôi chơi 8!</p>
+                                <p>Hắn bảo: 8 chú ngựa mang nguyên khí của vận 8 nên rất mạnh. Ngựa phi nước đại tức là đi xa. Là doanh nhân hay đi làm ăn xa, lại lắm đối thủ, đeo Bát Mã là chuẩn nhất!Khá tò mò về chiếc đồng hồ này, tôi đã tìm hiểu và thực
+                                    sự bị cuốn hút không chỉ bởi yếu tố phong thủy tâm linh mà còn bởi thiết kế, độ tinh xảo của cỗ máy này.</p>
+                                <div class="text-center mb-3">
+                                    <img src="images/mota2.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <p><strong>1/ Yếu Tố Phong Thủy của OG358.88AGR-GL</strong></p>
+                                <p>Đầu tiên phải nói rằng: Ogival - thương hiệu sản xuất ra chiếc “Bát Mã Truy Phong” thực sự rất am hiểu văn hóa tín ngưỡng Phương Đông. Thương hiệu đến từ Thụy Sĩ này đã rất khéo léo đưa các linh vật phong thủy vào trên
+                                    các mặt số đồng hồ.Ngoài Ogival Bát Mã, người ta từng biết đến những cái tên như: Ogival Kim Kê, Ogival Độc Long, Ogival Lưỡng Long Chầu Nguyệt, Ogival Mãnh Hổ Thượng Sơn,...</p>
+                                <p>Quay lại với cỗ máy thời gian Ogival Bát Mã OG358.88AGR-GL. Lấy cảm hứng từ hình tượng 8 chú ngựa dũng mãnh, phi nước đại tiến thẳng về phía trước, Ogival đã cho ra đời phiên bản Ogival Bát Mã Truy Phong mang đậm âm hưởng
+                                    Thụy Sĩ và ẩn chứa yếu tố phong thủy tâm linh.Trung tâm mặt đồng hồ được chạm khắc hình ảnh BÁT MÃ biểu tượng cho sự mã đáo thành công, thăng quan tiến chức, gia tăng tiền tài. Sự am hiểu văn hóa phương Đông của Ogival
+                                    còn được thể hiện rõ nét qua việc thương hiệu Chú cá nhảy tinh tế thêm vào đúng 8 chú ngựa, số 8 cũng là một con số tương ứng với phát tài phát lộc. </p>
+                                <div class="text-center mb-3">
+                                    <img src="images/mota3.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <p>Những ai là dân làm ăn, kinh doanh có người bạn này đồng hành như Ogival Bát Mã thì cứ xuôi chèo mát mái, tài vận hanh thông.</p>
+                                <p><strong>2/ Độ Khan Hiếm</strong></p>
+                                <p>Không chỉ rất am hiểu văn hóa phương Đông, Ogival còn rất biết tạo sự khan hiếm và sức hút cho sản phẩm của mình khi chỉ sản xuất đồng hồ với số lượng giới hạn. Với Ogival Bát Mã cũng không phải ngoại lệ, mẫu đồng hồ này
+                                    là phiên bản Skeleton Limited của Ogival với 999 chiếc trên toàn thế giới.</p>
+                                <div class="text-center mb-3">
+                                    <img src="images/mota4.jpg" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <p>Nói vui thì trong số 7 tỷ người thì chỉ có đúng 999 người may mắn có cơ hội sở hữu kiệt tác thời gian này. Như vậy, trung bình tại Việt Nam, số người sở hữu Ogival Bát Mã Truy Phong chưa đến con số 100.</p>
+                                <p><strong>3/ Thiết Kế Ogival OG358.88AGR-GL</strong></p>
+                                <p>Có thể nói, Ogival Skeleton Bát Mã là hiện thân của những gì tinh túy nhất của nghệ thuật trong suốt, một tác phẩm nghệ thuật đậm chất Swiss Made.</p>
+                                <p>Để làm một chiếc đồng hồ Skeleton tinh xảo, độ phức tạp và thời gian tiêu tốn có thể gấp vài lần thậm chí vài chục lần so với một chiếc đồng hồ thường cùng loại. Số lượng chi tiết cũng tăng vọt và đi kèm với đó quá trình
+                                    lắp ráp tỉ mỉ, chính xác cao độ. Thợ đồng hồ sẽ phải thực hiện toàn bộ dưới kính hiển vi với những đòi hỏi chính xác đến từng phần trăm của milimet.</p>
+                                <p><strong>4/ Bộ Máy Ogival Bát Mã</strong></p>
+                                <p>Cũng giống như đa phần các mẫu đồng hồ cao cấp khác của Ogival, Ogival Bát Mã mang trong mình cỗ máy Sellita SW200 - Cỗ máy Thụy Sĩ trứ danh được chế tác trên nền máy ETA, sở hữu tới 26 chân kính, đem đến độ chính xác cao,
+                                    trong khi đó những cỗ máy thông thường chỉ có 22, 33 chân kính.</p>
+                                <div class="text-center mb-3">
+                                    <img src="images/mota5.png" class="img-fluid" alt="Responsive image">
+                                </div>
+                                <p>Ngoài ra, máy Sellita SW200 được trang bị cơ chế chống sốc “thần kỳ” Incabloc, cầu nối bánh xe thoát cũng được làm bằng đá quý độ cứng cao. Chúng ta đều biết, các bộ máy Skeleton đều rất nhạy cảm với va đập (do mối liên
+                                    kết giữa các bánh răng là đĩa và cầu nối đều được cắt giảm đến mức tối thiểu). Vì vậy, các chi tiết cứng và chống sốc cao cấp khiến bộ máy trở nên chắc chắn và ổn định hơn rất nhiều khi đưa vào sử dụng.
+                                </p>
+                                <p>Hội tụ những vẻ đẹp của sự sang trọng - núm quả quýt hiếm có, kim xanh, phủ vàng hồng thời thượng kết hợp giá trị tâm linh - sự may mắn, tài lộc, chiếc đồng hồ Ogival Bát Mã có đủ làm bạn xiêu lòng? Hội tụ những vẻ đẹp
+                                    của sự sang trọng - núm quả quýt hiếm có, kim xanh, phủ vàng hồng thời thượng kết hợp giá trị tâm linh - sự may mắn, tài lộc, chiếc đồng hồ Ogival Bát Mã có đủ làm bạn xiêu lòng? </p>
+                            </div>
+                            <div class="see-more text-center">
+                                <button onclick="hienThi()" type="button" class="btn btn-light" id="shows">Xem thêm <i
+                                class="fas fa-angle-down"></i></button>
+                                <button onclick="thuGon()" type="button" class="btn btn-light" id="hiden" style="display: none;">Thu gọn <i class="fas fa-angle-up"></i></button>
+                            </div>
+                        </div>
+                        <script>
+                            function hienThi() {
+                                var hien = document.getElementById("describle-show");
+                                hien.style.display = "block";
+                                var shows = document.getElementById("shows");
+                                shows.style.display = "none";
+                                var thu = document.getElementById("hiden");
+                                thu.style.display = "block";
+                            }
+
+                            function thuGon() {
+                                var an = document.getElementById("describle-show");
+                                an.style.display = "none";
+                                var shows = document.getElementById("shows");
+                                shows.style.display = "block";
+                                var thu = document.getElementById("hiden");
+                                thu.style.display = "none";
+                            }
+                        </script>
+                        <div class="tab-pane fade" id="guarantee">
+                            <h5>BẢO HIỂM CẢ LỖI NGƯỜI DÙNG TRONG 5 NĂM</h5>
+                            <p>Chi tiết: <a href="">https://baohiem.cwatch.vn/</a></p>
+                            <h5>TRUNG TÂM BẢO HÀNH CWATCH</h5>
+                            <p>- Miền Bắc: Tầng 2, 364 Bạch Mai, Q.Hai Bà Trưng, Hà Nội | Hotline: 0989.514.242</p>
+                            <p>- Miền Nam: 378 Lý Thái Tổ, P.10, Q.10, TP. HCM | Hotline: 0906.906.655</p>
+                            <p>- Giờ làm việc: Sáng (9h00 - 12h00) | Chiều (13h30 - 18h30)</p>
+                        </div>
+                        <div class="tab-pane fade" id="tutorial">
+                            <nav class="nav nav-tabs">
+                                <a class="nav-link" id="watch-cleaning-tab" data-toggle="tab" href="#watch-cleaning">Hướng dẫn vệ sinh đồng hồ</a>
+                                <a class="nav-link" id="adjust-the-clock-tab" data-toggle="tab" href="#adjust-the-clock">Cách chỉnh đồng hồ</a>
+                                <a class="nav-link" id="water-resistant-tab" data-toggle="tab" href="#water-resistant">Độ chống nước của đồng hồ</a>
+                                <a class="nav-link" id="magnetic-infection-tab" data-toggle="tab" href="#magnetic-infection">Xử lý đồng hồ nhiễm từ</a>
+                            </nav>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="watch-cleaning">
+                                    <p>HƯỚNG DẪN VỆ SINH ĐỒNG HỒ DÂY DA</p>
+                                    <p>- Dùng vải ẩm lau sạch sẽ và để khô hoặc dùng xà phòng, dầu oliu làm sạch.</p>
+                                    <p>- Để dây da cùng gói hút ẩm trong hộp kín để khử mùi hôi.</p>
+                                    <p>* Chú ý: </p>
+                                    <p>- Không nên xả nước trực tiếp vào dây da đồng hồ vì sẽ làm dây da thấm nước và kém bền.</p>
+                                    <p>- Khi dây da bị ẩm, không nên dùng máy sấy vì dây đồng hồ có thể bị cong vênh, cứng lại.</p>
+                                    <p>HƯỚNG DẪN VỆ SINH ĐỒNG HỒ DÂY KIM LOẠI</p>
+                                    <p>(*) Đối với đồng hồ có khả năng chống nước tốt:</p>
+                                    <p>- Chuẩn bị nước ấm, nhiệt độ tầm 50 độ C, pha với một chút nước rửa bát. </p>
+                                    <p>- Nhúng toàn bộ đồng hồ vào dung dịch này, ngâm trong vòng 3 - 5 phút.</p>
+                                    <p>- Sử dụng bàn chải lông mềm cọ rửa các kẽ hở trên dây đồng hồ rồi rửa lại bằng nước sạch. </p>
+                                    <p>(*) Đối với đồng hồ có khả năng chống nước kém:</p>
+                                    <p>- Lấy một chiếc tăm nhỏ để lấy đi các vết bẩn trong các khe hở. </p>
+                                    <p>- Xoa đều kem đánh răng lên dây đồng hồ, sử dụng bàn chải mềm làm sạch rồi rửa lại với nước sạch.</p>
+                                    <p>HƯỚNG DẪN VỆ SINH ĐỒNG HỒ DÂY NATO/DÂY VẢI</p>
+                                    <p>(*) Khi dây vải bị dính dầu mỡ:</p>
+                                    <p>- Xịt ướt dây đồng hồ với oxi già.</p>
+                                    <p>- Rắc đều bột nở lên dây đồng hồ, dùng bàn chải lông mềm cọ sạch.</p>
+                                    <p>- Sau 30 phút xả qua nước và phơi khô.</p>
+                                    <p>(*) Khi dây vải bị dính mực bút bi:</p>
+                                    <p>- Bôi kem đánh răng và xà phòng vào vết mực dính trên dây đồng hồ.</p>
+                                    <p>- Dùng bàn chải lông mềm cọ sạch.</p>
+                                    <p>- Thoa thêm một ít cồn lên vết bẩn rồi vò lại với nước sạch."</p>
+                                </div>
+                                <div class="tab-pane fade" id="adjust-the-clock">
+                                    <p>CÁCH CHỈNH GIỜ ĐỒNG HỒ 2 - 3 KIM</p>
+                                    <p>- Bước 1: Kéo núm ra 1 nấc.</p>
+                                    <p>- Bước 2: Xoay núm theo chiều kim đồng hồ để điều chỉnh giờ – phút.</p>
+                                    <p>- Bước 3: Đóng núm lại vị trí ban đầu. </p>
+                                    <p>CÁCH CHỈNH GIỜ ĐỒNG HỒ 2 - 3 KIM, 1 LỊCH NGÀY</p>
+                                    <p>- Bước 1: Rút núm chỉnh 1 nấc để chỉnh lịch.</p>
+                                    <p>- Bước 2: Vặn núm chỉnh ngược chiều kim đồng hồ để chỉnh lịch ngày như mong muốn.
+                                    </p>
+                                    <p>- Bước 3: Rút núm chỉnh thêm 1 nấc nữa để chỉnh giờ - phút.</p>
+                                    <p>- Bước 4: Vặn núm chỉnh để chỉnh tăng - giảm giờ phút như mong muốn.</p>
+                                    <p>- Bước 5: Đẩy núm chỉnh khít lại như ban đầu</p>
+                                    <p>CÁCH CHỈNH GIỜ ĐỒNG HỒ 2 - 3 KIM, 2 LỊCH THỨ - NGÀY</p>
+                                    <p>- Bước 1: Rút núm chỉnh 1 nấc để chỉnh lịch thứ - ngày.</p>
+                                    <p>- Bước 2: Vặn núm chỉnh theo chiều kim đồng hồ để chỉnh lịch ngày.</p>
+                                    <p>- Bước 3: Vặn núm chỉnh ngược chiều kim đồng hồ để chỉnh lịch thứ.</p>
+                                    <p>- Bước 4: Rút núm chỉnh thêm một nấc nữa để chỉnh giờ - phút.</p>
+                                    <p>- Bước 5: Vặn núm theo chiều kim đồng hồ để tăng dần giờ - phút, ngược chiều để giảm dần.</p>
+                                    <p>- Bước 6: Đẩy núm chỉnh khít lại như ban đầu</p>
+                                    <p>CÁCH CHỈNH GIỜ ĐỒNG HỒ 6 KIM - 3 NÚT</p>
+                                    <p>(*) Cách chỉnh ngày:</p>
+                                    <p>- Bước 1: Kéo nút giữa của đồng hồ ra một nấc.</p>
+                                    <p>- Bước 2: Vặn chỉnh đến khi hiển thị số ngày mong muốn.</p>
+                                    <p>- Bước 3: Đẩy nút giữa về vị trí ban đầu.</p>
+                                    <p>(*) Cách chỉnh giờ, phút:</p>
+                                    <p>- Bước 1: Kéo nút giữa của đồng hồ ra hai nấc.</p>
+                                    <p>- Bước 2: Vặn cho cho kim phút xoay (chỉ đi tới không đỉ lùi) đến vị trí thời gian mong muốn.</p>
+                                    <p>- Bước 2: Sau khi chỉnh xong ta đẩy nút giữa về vị trí ban đầu.</p>
+                                    <p>(*) Cách sử dụng chức năng Chronograph:</p>
+                                    <p>- Bước 1: Bấm nút phía trên 1 lần => kim giây trung tâm hay còn được gọi kim giây của giờ thể thao (Chronograph giây) bắt đầu chạy.</p>
+                                    <p>- Bước 2: Bấm lại một lần nữa => chiếc kim này sẽ dừng lại.</p>
+                                    <p>- Bước 3: Xem số phút trôi qua bằng cách nhìn vào mặt đồng hồ phụ hiển thị 60 phút và số giây trôi qua thì ta xem ở kim giây trung tâm.</p>
+                                    <p>- Bước 4: Để Reset lại đồng hồ bấm giờ thể thao, nhấn nút bên dưới và kim giây trung tâm sẽ trở lại vị trí số 12."</p>
+                                </div>
+                                <div class="tab-pane fade" id="water-resistant">
+                                    <p>ĐỘ CHỐNG NƯỚC 30M (3ATM)</p>
+                                    <p>- Có thể đeo đồng hồ khi rửa tay, rửa xe, đi mưa nhẹ</p>
+                                    <p>- Không điều chỉnh núm đồng hồ khi ở dưới nước</p>
+                                    <p>- Không đeo đồng hồ khi đi tắm hơi.</p>
+                                    <p>ĐỘ CHỐNG NƯỚC 50M (5ATM)</p>
+                                    <p>- Có thể đeo đồng hồ khi rửa tay, đi mưa, hoạt động ở vùng nước nông</p>
+                                    <p>- Không điều chỉnh núm đồng hồ khi ở dưới nước</p>
+                                    <p>- Không đeo đồng hồ khi đi tắm hơi.</p>
+                                    <p>ĐỘ CHỐNG NƯỚC 100M (10ATM)</p>
+                                    <p>- Có thể đeo đồng hồ khi rửa tay, đi mưa, bơi lội</p>
+                                    <p>- Không điều chỉnh núm đồng hồ khi ở dưới nước</p>
+                                    <p>- Không đeo đồng hồ khi đi tắm hơi.</p>
+                                    <p>ĐỒNG HỒ LẶN ĐỘ CHỐNG NƯỚC 200M (20ATM)</p>
+                                    <p>- Đồng hồ được thiết kế cho các hoạt động lặn biển chuyên dụng ở độ sâu đến 200m ở điều kiện nước tĩnh.</p>
+                                    <p>- Không đeo đồng hồ khi đi tắm hơi."</p>
+                                </div>
+                                <div class="tab-pane fade" id="magnetic-infection">
+                                    <p>XỬ LÝ ĐỒNG HỒ NHIỄM TỪ</p>
+                                    <p>- Cho đồng hồ đeo tay lướt qua lướt lại nhiều lần qua một vòng sắt nhỏ không bị nhiễm từ, sau vài phút đồng hồ của bạn sẽ nhả hết từ và phục hồi lại trạng thái ban đầu.</p>
+                                    <p>- Chuyên gia Xwatch khuyến cáo bạn nên mang đồng hồ đến trung tâm bảo hành, sửa chữa để kiểm tra và xử lý bằng thiết bị chuyên dụng.</p>
+                                    <p>LƯU Ý</p>
+                                    <p>- Hạn chế để đồng hồ gần vật có từ trường mạnh như: tủ lạnh, tivi, thùng loa, máy vi tính, điện thoại di động, radio, tia X-quang, bếp từ và các thiết bị điện tử có chi tiết nam châm..</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="evaluate">
+                            <div class="product-customt-box">
+                                <div class="product-customt-title">
+                                    <p>KHÁCH HÀNG NHẬN XÉT</p>
+                                </div>
+                                <div class="product-customt-content">
+                                    <div class="row">
+                                        <div class="col-md-4 product-item">
+                                            <div class="product-customt-item">
+                                                <p>Đánh giá trung bình</p>
+                                                <p class="total-review-point">4.5/5</p>
+                                                <div class="item-rating-point">
+                                                    <p class="rating">
+                                                        <span class="rating-box">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star-half-alt"></i>
+                                                        </span>
+                                                    </p>
+                                                    <p class="comments-count">
+                                                        <a href="">(12 nhận xét)</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 product-item">
+                                            <div class="product-customt-item">
+                                                <div class="item-rating">
+                                                    <span class="rating-num">5<i class="fas fa-star"></i></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 74%;"></div>
+                                                    </div>
+                                                    <span class="rating-num-total">74%</span>
+                                                </div>
+                                                <div class="item-rating">
+                                                    <span class="rating-num">4<i class="fas fa-star"></i></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 16%;"></div>
+                                                    </div>
+                                                    <span class="rating-num-total">16%</span>
+                                                </div>
+                                                <div class="item-rating">
+                                                    <span class="rating-num">3<i class="fas fa-star"></i></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 6%;"></div>
+                                                    </div>
+                                                    <span class="rating-num-total">6%</span>
+                                                </div>
+                                                <div class="item-rating">
+                                                    <span class="rating-num">2<i class="fas fa-star"></i></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 3%;"></div>
+                                                    </div>
+                                                    <span class="rating-num-total">3%</span>
+                                                </div>
+                                                <div class="item-rating">
+                                                    <span class="rating-num">1<i class="fas fa-star"></i></span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 1%;"></div>
+                                                    </div>
+                                                    <span class="rating-num-total">1%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 product-item">
+                                            <div class="product-customt-item">
+                                                <p>Chia sẻ nhận xét về sản phẩm</p>
+                                                <button type="button" class="btn btn-warning">Viết nhận xét của
+                                                    bạn</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="review-lazy">
+                                        <div class="review-lazy-item">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="user-customt">
+                                                        <div class="avatar-img">
+                                                            <span class="avatar-letter">HT</span>
+                                                        </div>
+                                                        <p class="name">Nguyễn Hữu Tiến</p>
+                                                        <p class="day">1 tháng trước</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="infomation">
+                                                        <div class="rating-infor">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <p class="review-name">Giao hàng nhanh</p>
+                                                        <p class="buy-already">Đã mua sản phẩm này tại Cwatch</p>
+                                                        <div class="descreption">
+                                                            <p class="review-body">
+                                                                Tôi thực sự an tâm và tin tưởng vào chất lượng dịch vụ của CWatch. Lần đầu tiên thấy chiếc đồng hồ của mình được chăm chút như vậy. Đóng gói sản phẩm chắc chắn giao hàng nhanh.
+                                                            </p>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="review-action">
+                                                                <span>Nhận xét này hữu ích với bạn</span>
+                                                                <button type="button" class="btn btn-warning"><i
+                                                                        class="fas fa-thumbs-up"></i>Cảm ơn</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review-lazy-item">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="user-customt">
+                                                        <div class="avatar-img">
+                                                            <span class="avatar-letter">HT</span>
+                                                        </div>
+                                                        <p class="name">Nguyễn Hữu Tiến</p>
+                                                        <p class="day">1 tháng trước</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="infomation">
+                                                        <div class="rating-infor">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <p class="review-name">Giao hàng nhanh</p>
+                                                        <p class="buy-already">Đã mua sản phẩm này tại Cwatch</p>
+                                                        <div class="descreption">
+                                                            <p class="review-body">
+                                                                Tôi thực sự an tâm và tin tưởng vào chất lượng dịch vụ của CWatch. Lần đầu tiên thấy chiếc đồng hồ của mình được chăm chút như vậy. Đóng gói sản phẩm chắc chắn giao hàng nhanh.
+                                                            </p>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="review-action">
+                                                                <span>Nhận xét này hữu ích với bạn</span>
+                                                                <button type="button" class="btn btn-warning"><i
+                                                                        class="fas fa-thumbs-up"></i>Cảm ơn</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review-lazy-item">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="user-customt">
+                                                        <div class="avatar-img">
+                                                            <span class="avatar-letter">HT</span>
+                                                        </div>
+                                                        <p class="name">Nguyễn Hữu Tiến</p>
+                                                        <p class="day">1 tháng trước</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="infomation">
+                                                        <div class="rating-infor">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <p class="review-name">Giao hàng nhanh</p>
+                                                        <p class="buy-already">Đã mua sản phẩm này tại Cwatch</p>
+                                                        <div class="descreption">
+                                                            <p class="review-body">
+                                                                Tôi thực sự an tâm và tin tưởng vào chất lượng dịch vụ của CWatch. Lần đầu tiên thấy chiếc đồng hồ của mình được chăm chút như vậy. Đóng gói sản phẩm chắc chắn giao hàng nhanh.
+                                                            </p>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="review-action">
+                                                                <span>Nhận xét này hữu ích với bạn</span>
+                                                                <button type="button" class="btn btn-warning"><i
+                                                                        class="fas fa-thumbs-up"></i>Cảm ơn</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="review-lazy-item">
+                                            <div class="row">
+                                                <div class="col-md-2">
+                                                    <div class="user-customt">
+                                                        <div class="avatar-img">
+                                                            <span class="avatar-letter">HT</span>
+                                                        </div>
+                                                        <p class="name">Nguyễn Hữu Tiến</p>
+                                                        <p class="day">1 tháng trước</p>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-10">
+                                                    <div class="infomation">
+                                                        <div class="rating-infor">
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                            <i class="fas fa-star"></i>
+                                                        </div>
+                                                        <p class="review-name">Giao hàng nhanh</p>
+                                                        <p class="buy-already">Đã mua sản phẩm này tại Cwatch</p>
+                                                        <div class="descreption">
+                                                            <p class="review-body">
+                                                                Tôi thực sự an tâm và tin tưởng vào chất lượng dịch vụ của CWatch. Lần đầu tiên thấy chiếc đồng hồ của mình được chăm chút như vậy. Đóng gói sản phẩm chắc chắn giao hàng nhanh.
+                                                            </p>
+                                                        </div>
+                                                        <div class="link">
+                                                            <div class="review-action">
+                                                                <span>Nhận xét này hữu ích với bạn</span>
+                                                                <button type="button" class="btn btn-warning"><i
+                                                                        class="fas fa-thumbs-up"></i>Cảm ơn</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list-pager">
+                        <ul>
+                            <li><a href="" class="active">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li><a href=""><i class="fas fa-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="related-product">
+                <!-- carousel-->
+                <div class="related-product-heading">
+                    <h2 class="title">SẢN PHẨM LIÊN QUAN</h2>
+                </div>
+                <div class="related-product-slider">
+                    <div class="owl-carousel ">
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp1.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp1.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp1.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item ">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp2.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider-item">
+                            <div class="related-product-item">
+                                <div class="related-product-img">
+                                    <a href=""><img src="images/sp3.jpg" class="img-fluid" alt="Responsive image"></a>
+                                </div>
+                                <div class="related-product-content">
+                                    <a href="chitiet.html">
+                                        <p class="cat-name">Đồng hồ OM178WL</p>
+                                    </a>
+                                    <p><del>3.500.000đ</del><span>2.575.000đ</span></p>
+                                    <div class="rating-star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <a href="chitiet.html"><span>(12)</span></a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    loop: true,
+                    margin: 10,
+                    responsiveClass: true,
+                    responsive: {
+                        0: {
+                            items: 1,
+                            nav: true
+                        },
+                        600: {
+                            items: 3,
+                            nav: false
+                        },
+                        1000: {
+                            items: 4,
+                            nav: true,
+                            loop: false
+                        }
+                    }
+                });
+                $(".carousel").carousel({
+                    interval: 2000
+                });
+            });
+        </script>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">VỀ CHÚNG TÔI</a></p>
+                        </div>
+                        <div class="item-content">
+                            <p>CWatch tự hào là đại lý phân phối các mẫu đồng hồ Orient, Seiko, Citizen, Bulova với giá thành tốt nhất tại Việt Nam</p>
+                            <p><a href="">Giới thiệu về Cwatch</a></p>
+                            <p><a href="">Triết lý kinh doanh</a></p>
+                            <p><a href="">Khách hàng nói gì về chúng tôi</a></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">DANH MỤC</a></p>
+                        </div>
+                        <div class="item-content">
+                            <ul class="category">
+                                <li><a href="dongho.html">ĐỒNG HỒ</a></li>
+                                <li><a href="phukien.html">PHỤ KIỆN ĐỒNG HỒ</a></li>
+                                <li><a href="service.html">DỊCH VỤ</a></li>
+                                <li><a href="news.html">TIN TỨC</a></li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">CHÍNH SÁCH</p></a>
+                        </div>
+                        <div class="item-content">
+                            <ul>
+                                <li><a href="">Hướng dẫn mua hàng</a></li>
+                                <li><a href="">Phương thức thanh toán</a></li>
+                                <li><a href="">Phương thức vận chuyển</a></li>
+                                <li><a href="">Chính sách bảo hành</a></li>
+                                <li><a href="">Chính sách đổi trả và hoàn tiền</a></li>
+                                <li><a href="">Chính sách bảo mật thông tin</a></li>
+                                <li><a href="">Chính sách khách hàng thân thiết</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+                <div class="col-3 col-md-4 col-sm-6 col-12">
+                    <div class="footer-item">
+                        <div class="item-heading">
+                            <p><a href="">ĐĂNG KÝ NHẬN TIN</p></a>
+                        </div>
+                        <div class="item-content">
+                            <p>Mỗi tháng chúng tôi đều có những đợt giảm giá dịch vụ và sản phẩm nhằm chi ân khách hàng. Để có thể cập nhật kịp thời những đợt giảm giá này, vui lòng nhập địa chỉ email của bạn vào ô dưới đây</p>
+                            <div>
+                                <form action="" class="form-inline">
+                                    <input type="email" class="form-control" placeholder="Email của bạn" required>
+                                    <button type="submit" class="btn btn-primary">Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end footer-item -->
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-10">
+                        <div class="text-copyright">
+                            <p>©2020 All right reserved-Bản quyền thuộc về hoact98</p>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div class="social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="back-to-top"><i class="fas fa-chevron-up"></i></div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
